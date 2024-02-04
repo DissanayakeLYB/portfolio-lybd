@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+}
+
+.sidebar{
+    position: fixed;
+    background: black;
+    width: 20vw;
+    height: 100vh;
+}
