@@ -3,23 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Skills - Lasith Dissanayake</title>
+    <title>Lasith Dissanayake</title>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <div class="logo">
-            <img src="images/logo.png" alt="Logo" class="responsive-img">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" alt="Logo" class="responsive-img"></a>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
         </div>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About Me</a>
-            <a href="projects.html">Projects</a>
-            <a href="skills.html">Skills</a>
-            <a href="blog.html">Blog</a>
-            <a href="contact.html">Contact</a>
-        </nav>
     </header>
     
     <section id="skills">
@@ -38,18 +48,19 @@
     </section>
     
     <footer>
-        <div class="container">
-            <div class="footer-section">
-                <h4>About Lasith Dissanayake</h4>
-                <p>Material Science and Engineering undergraduate at the University of Moratuwa. Enthusiast in machine learning and generative AI.</p>
+        <div class="container footer-content">
+            <div class="footer-column social">
+                <h4>Follow Me</h4>
+                <ul class="social-icons">
+                    <li><a class="linkedin" href="https://www.linkedin.com/in/lasith-dissanayake/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                    <li><a class="fb" href="https://web.facebook.com/DissanayakeLYB" target="_blank"><i class="fab fa-facebook "></i></a></li>
+                    <li><a class="github" href="https://github.com/DissanayakeLYB" target="_blank"><i class="fab fa-github "></i></a></li>
+                </ul>
             </div>
-            <div class="footer-section">
-                <h4>Contact</h4>
-                <p>Email: <a href="mailto:example@example.com" style="color: #4caf50;">example@example.com</a></p>
-                <p>LinkedIn: <a href="https://www.linkedin.com/in/your-profile" target="_blank" style="color: #4caf50;">Your LinkedIn Profile</a></p>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Lasith Dissanayake. All rights reserved.</p>
             </div>
         </div>
-        <p>&copy; 2024 Lasith Dissanayake</p>
     </footer>
 </body>
 </html>
